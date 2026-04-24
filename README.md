@@ -48,6 +48,14 @@ npm run build
 - npm 9 or later
 - TypeScript 5.2.2 (project version)
 
+## Lab Tools
+
+- Visual Studio Code Family (Cursor, Agy, etc.) 
+- Recommended VS Code Extensions (Cursor, Antigravity compatible):
+  - [`ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for TypeScript lint feedback while doing Lab.
+  - [`Jest`](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) for running Jest Unit Tests directly in the editor.
+  - [`Test Coverage Gutters`](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) for showing Jest test coverage in source files.
+
 ## Available Scripts
 
 Run all commands from `code/`.
