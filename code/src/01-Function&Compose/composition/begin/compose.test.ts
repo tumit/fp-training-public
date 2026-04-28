@@ -1,6 +1,6 @@
-import { 
-  toString, 
-  increment, 
+import {
+  toString,
+  increment,
   // incrementThenToString, 
   // compose 
 } from "./compose"
