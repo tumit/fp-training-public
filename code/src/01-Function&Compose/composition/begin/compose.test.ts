@@ -1,8 +1,8 @@
 import {
   toString,
   increment,
-  // incrementThenToString, 
-  // compose 
+  incrementThenToString,
+  compose
 } from "./compose"
 
 describe('Composition', () => {
@@ -11,10 +11,10 @@ describe('Composition', () => {
   })
 
   it('should compose two functions with incrementThenToString', () => {
-    // expect(incrementThenToString(1)).toBe('2')
+    expect(incrementThenToString(1)).toBe('2')
   })
 
   it('should compose two functions with my own compose', () => {
-    // expect(compose(increment, toString)(1)).toBe('2')
+    expect(compose(increment, toString)(1)).toBe('2')
   })
 })
